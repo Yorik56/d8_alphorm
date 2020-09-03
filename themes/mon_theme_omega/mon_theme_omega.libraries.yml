@@ -1,0 +1,23 @@
+mon_theme_omega:
+  omega:
+    allow_clone_for_subtheme: true
+    allow_enable_disable: true
+    title: 'Default library for mon_theme_omega.'
+    description: 'Default Omega subtheme library description. Please provide a more meaningful description (and title) for this library by editing the mon_theme_omega.libraries.yml file.'
+    scss: 
+      style/css/mon_theme_omega.css: 'style/scss/mon_theme_omega.scss'
+  version: VERSION
+  js:
+    # Custom Javascript file for your own JS modifications.
+    # Examples of behaviors in JS file.
+    js/mon_theme_omega.js: {}
+    
+  css:
+    theme:
+      # Custom CSS file to be loaded in all media circumstances
+      style/css/mon_theme_omega.css: {}
+  dependencies:
+#      - core/modernizr
+#     - core/jquery
+#     - core/drupal
+#     - core/drupalSettings
